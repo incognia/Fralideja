@@ -1,4 +1,4 @@
-#!/usr/bash
+#!/bin/bash
 #   set-environment.sh - Update system and install R
 #
 #   Copyright © 2018, Rodrigo Ernesto Alvarez Aguilera <incognia@gmail.com>
