@@ -18,11 +18,10 @@
 #
 #   Version 0.1 - April 10, 2018
 #   Author: Rodrigo Ernesto Alvarez Aguilera
-#   Author: Bas Hofstra
 #
 #   Tested under Ubuntu 16.04.4 LTS using GNU bash version 4.3.48
 #
-HELP="Uso: hello-world.sh [OPCIÓN]\n\n
+HELP="Uso: set-environment.sh [OPCIÓN]\n\n
 \t-h\tmuestra esta lista de ayuda\n
 \t-l\tmuestra la licencia del programa\n
 \t-v\tmuestra la versión del programa\n"
@@ -46,7 +45,7 @@ sudo aptitude safe-upgrade --assume-yes
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
 sudo apt-get update
-sudo apt-get install r-base --assume-yes
+sudo apt-get install r-base libssl-dev libcurl4-openssl-dev --assume-yes
 
 mkdir ~/twitter
 
