@@ -25,7 +25,7 @@
 # Select France mirror
 chooseCRANmirror(ind=30)
 
-setwd("/home/incognia/twitter/")
+setwd("~/twitter/")
 
 install.packages("twitteR")
 install.packages("devtools")
