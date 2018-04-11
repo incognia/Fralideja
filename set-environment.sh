@@ -48,6 +48,7 @@ else
     sudo apt-get install r-base libssl-dev libcurl4-openssl-dev --assume-yes
     # Create work directory
     mkdir ~/twitter
+    sleep 5
     # Reset terminal and display final message
     reset
     echo -e "R y sus bibliotecas se han instalado correctamente en el sistema."
