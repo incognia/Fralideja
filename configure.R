@@ -24,16 +24,17 @@
 
 # Select France mirror
 chooseCRANmirror(ind=30)
-
+# Set working directory
 setwd("~/twitter/")
-
+# Install packages
 install.packages("twitteR")
 install.packages("devtools")
 install.packages("foreign")
-
+# Load libraries
 library(twitteR)
 library(foreign)
 library(devtools)
+# Install twitteR from GitHub
 install_github("geoffjentry/twitteR")
-
+# Exit without prompt
 quit(save="no")
