@@ -34,6 +34,6 @@ install.packages("foreign")
 library(twitteR)
 library(foreign)
 library(devtools)
-install_github("twitteR", username="geoffjentry")
+install_github("geoffjentry/twitteR")
 
 quit(save="no")
