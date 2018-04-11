@@ -1,5 +1,5 @@
 #!/bin/bash
-#   set-environment.sh - Update system and install R
+#   set-environment.sh - Update system and install R base
 #
 #   Copyright © 2018, Rodrigo Ernesto Alvarez Aguilera <incognia@gmail.com>
 #
@@ -22,12 +22,12 @@
 #   Tested under Ubuntu 16.04.4 LTS using GNU bash version 4.3.48
 #
 HELP="Uso: set-environment.sh [OPCIÓN]\n\n
-\t-h\tmuestra esta lista de ayuda\n
-\t-l\tmuestra la licencia del programa\n
-\t-v\tmuestra la versión del programa\n"
+    \t-h\tmuestra esta lista de ayuda\n
+    \t-l\tmuestra la licencia del programa\n
+    \t-v\tmuestra la versión del programa\n"
 
 VERSION="set-environment.sh versión 0.1\n
-\bCopyright © 2018 Rodrigo Ernesto Alvarez Aguilera"
+    \bCopyright © 2018 Rodrigo Ernesto Alvarez Aguilera"
 
 if  [[ $1 = "-h" ]]; then
     echo -e $HELP
@@ -36,12 +36,16 @@ elif  [[ $1 = "-l" ]]; then
 elif  [[ $1 = "-v" ]]; then
     echo -e $VERSION
 else
+    # Put the system up to date
     sudo apt-get update
     sudo apt-get install aptitude
     sudo aptitude safe-upgrade --assume-yes
+    # Add key and repository for R
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
     sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
     sudo apt-get update
+    # Install R base and libraries
     sudo apt-get install r-base libssl-dev libcurl4-openssl-dev --assume-yes
+    # Create work directory
     mkdir ~/twitter
 fi
