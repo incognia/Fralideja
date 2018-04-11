@@ -44,8 +44,8 @@ else
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
     sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
     sudo apt-get update
-    # Install R base and libraries
-    sudo apt-get install r-base libssl-dev libcurl4-openssl-dev --assume-yes
+    # Install R base with libraries and nmon to display local system statistics
+    sudo apt-get install --assume-yes r-base libssl-dev libcurl4-openssl-dev nmon
     # Create work directory
     mkdir ~/twitter
     # Excecure Rscript with sudo to configure R repositories and install libraries
