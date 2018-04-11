@@ -48,8 +48,10 @@ else
     sudo apt-get install r-base libssl-dev libcurl4-openssl-dev --assume-yes
     # Create work directory
     mkdir ~/twitter
-    sleep 5
+    # Excecure Rscript with sudo to configure R repositories and install libraries
+    sudo Rscript configure.R
     # Reset terminal and display final message
+    sleep 5
     reset
     echo -e "R y sus bibliotecas se han instalado correctamente en el sistema."
 fi
