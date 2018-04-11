@@ -36,4 +36,4 @@ library(foreign)
 library(devtools)
 install_github("twitteR", username="geoffjentry")
 
-quit(save=no)
+quit(save="no")
