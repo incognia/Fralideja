@@ -1,6 +1,9 @@
 # Fralideja | Data mining app
 Extract and analyze data from Twitter using R and Gephi on GNU/Linux
 
+As Peter Sondergaard said:
+> Information is the oil of the 21st century, and analytics is the combustion engine.
+
 ## Links
 
 - Repository: https://github.com/incognia/fralideja
