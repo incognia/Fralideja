@@ -104,20 +104,14 @@ consideration, it is common to separate this section to its own file called
 
 ## Links
 
-Even though this information can be found inside the project on machine-readable
-format like in a .json file, it's good to include a summary of most useful
-links to humans using your project. You can include links like:
-
-- Project homepage: https://your.github.com/awesome-project/
-- Repository: https://github.com/your/awesome-project/
-- Issue tracker: https://github.com/your/awesome-project/issues
+- Repository: https://github.com/incognia/fralideja
+- Issue tracker: https://github.com/incognia/fralideja/issues
   - In case of sensitive bugs like security vulnerabilities, please contact
-    my@email.com directly instead of using issue tracker. We value your effort
-    to improve the security and privacy of this project!
+    incognia@gmail.com directly instead of using issue tracker. We value
+    your effort to improve the security and privacy of this project!
 - Related projects:
-  - Your other project: https://github.com/your/other-project/
-  - Someone else's project: https://github.com/someones/awesome-project/
-
+  - Gephi - The Open Graph Viz Platform: https://github.com/gephi/gephi
+  - Visual Studio Code - Open Source: https://github.com/Microsoft/vscode
 
 ## Licensing
 
@@ -130,4 +124,4 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see http://www.gnu.org/licenses/.
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
