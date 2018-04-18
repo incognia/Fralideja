@@ -1,10 +1,7 @@
+![Logo of the project](https://raw.githubusercontent.com/incognia/fralideja/master/erredos_droid_128.png)
+
 # Fralideja | Data mining app
-Extract and analyze data from Twitter using R and Gephi on GNU/Linux
-
-![Logo of the project](https://raw.githubusercontent.com/jehna/readme-best-practices/master/sample-logo.png)
-
-# Name of the project
-> Additional information or tagline
+> Extract and analyze data from Twitter using R and Gephi on GNU/Linux
 
 A brief description of your project, what it is used for and how does life get
 awesome when someone starts to use it.
