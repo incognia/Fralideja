@@ -121,8 +121,7 @@ links to humans using your project. You can include links like:
 
 ## Licensing
 
-One really important part: Give your project a proper license. Here you should
-state what the license is and how to find the text version of the license.
-Something like:
-
-"The code in this project is licensed under MIT license."
+You may copy, distribute and modify the software as long as you track
+changes/dates in source files. Any modifications to or software including
+(via compiler) GPL-licensed code must also be made available under the GPL along
+with build & install instructions.
