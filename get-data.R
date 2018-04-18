@@ -33,10 +33,10 @@ library(devtools)
 
 # The Consumer Key (API Key), Consumer Secret (API Secret),
 # Access Token and Access Token Secret needed to access the Twitter-API
-con <- "HLFmYtlDMSOQJaJVteg19t6RR"
-cons <-"p6j5gFjk5sKZDmFoJRWz7KXWGPEnkbTv75Ay5Gv7YJ2iXBKoKv"
-api <- "35599268-xKFomjh0K2Y6Uj5J3lVdkOHCoIecqVca4mrKn4IFi"
-apis <- "Rvj8q5jYQW0pzspYIB3bApOzruJXlCr4Xo2zdk3kgTErG"
+con <- "..."
+cons <-"..."
+api <- "..."
+apis <- "..."
 
 setup_twitter_oauth(con, cons, api, apis)
 
