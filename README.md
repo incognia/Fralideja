@@ -110,8 +110,9 @@ consideration, it is common to separate this section to its own file called
     incognia@gmail.com directly instead of using issue tracker. We value
     your effort to improve the security and privacy of this project!
 - Related projects:
-  - Gephi - The Open Graph Viz Platform: https://github.com/gephi/gephi
-  - Visual Studio Code - Open Source: https://github.com/Microsoft/vscode
+  - Gephi | Open Source platform for large graphs: https://github.com/gephi/gephi
+  - GraphJet | Real-time graph processing library: https://github.com/twitter/GraphJet
+  - Visual Studio Code | Open Source code editor: https://github.com/Microsoft/vscode
 
 ## Licensing
 
