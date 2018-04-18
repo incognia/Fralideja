@@ -1,21 +1,5 @@
 # Fralideja | Data mining app
-> Extract and analyze data from Twitter using R and Gephi on GNU/Linux
-
-A brief description of your project, what it is used for and how does life get
-awesome when someone starts to use it.
-
-## Installing / Getting started
-
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
-
-```shell
-packagemanager install awesome-project
-awesome-project start
-awesome-project "Do something!"  # prints "Nah."
-```
-
-Here you should say what actually happens when you execute the code above.
+Extract and analyze data from Twitter using R and Gephi on GNU/Linux
 
 ## Links
 
