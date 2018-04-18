@@ -1,5 +1,4 @@
-![Logo of the project](https://raw.githubusercontent.com/incognia/fralideja/master/erredos_droid_128.png)
-
+![Logo of the project](https://raw.githubusercontent.com/incognia/fralideja/master/erredos_droid_64.png)
 # Fralideja | Data mining app
 > Extract and analyze data from Twitter using R and Gephi on GNU/Linux
 
